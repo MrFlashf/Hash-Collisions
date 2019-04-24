@@ -1,0 +1,9 @@
+{application,collisions,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"collisions"},
+              {modules,['Elixir.Collisions.Application',
+                        'Elixir.Collisions.Floyd',
+                        'Elixir.Collisions.Hash.Md5']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Collisions.Application',[]}}]}.
